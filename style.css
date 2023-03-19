@@ -1,6 +1,9 @@
 body {
     font-family: 'roboto', cursive;
     font-size: 2em;
+    padding: 0;
+    margin: 0;
+    margin-top: 0%;
   }
 .donate{
     text-align: center;
@@ -39,28 +42,92 @@ body {
     border-radius: 5%;
     background-image: linear-gradient(tomato, violet);
 }
+.other{
+    background-color: rgba(161, 127, 127, 0.336);
+    width: 30%;
+}
 .third-section{
     text-align: center;
     font-size: 60%;
 }
 .food{
     font-size: 15px;
-    background-image: url(icons/food.png);
-    background-repeat: no-repeat;
-    background-size: 30px
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    padding: 40px 60px;
+    background-color: rgba(65, 190, 190, 0.192);
 }
 .shelter{
     font-size: 15px;
-    background-image: url(icons/shelter.png);
-    background-repeat: no-repeat;
-    background-size: 30px
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    padding: 40px 60px;
+    background-color: rgba(216, 112, 147, 0.24);
 }
 .education{
     font-size: 15px;
-    background-image: url(icons/Frame-1.png);
-    background-repeat: no-repeat;
-    background-size: 30px
+    padding: 40px 60px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    background-color: rgba(222, 184, 135, 0.308);
 }
 .intructions{
     display: flex;
+}
+.flood-life{
+    margin-top: 50px;
+    display: flex;
+    font-size: 60%;
+}
+.flood-life h1{
+    font-size: 180%;
+    color: crimson;
+}
+.flood-life p{
+    font-size: 100%;
+    font-family: cursive;
+    color: rgba(107, 62, 62, 0.884);
+}
+.flood-life img{
+    padding: 20px 30px;
+}
+.updates{
+    text-align: center;
+    font-size: 50%;
+    margin-top: 50px;
+}
+.email{
+    text-align: center;
+    font-size: 25px;
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    padding: 40px 40px;
+    background-color: rgba(216, 112, 147, 0.24);
+}
+.mail{
+    background-color: rgba(68, 62, 62, 0.438);
+    width: 40%;
+}
+.new{
+    text-align: center;
+    background-position: center;
+}
+.final{
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.959);
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+.final h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
 }
