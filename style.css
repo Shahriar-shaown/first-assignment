@@ -4,6 +4,63 @@ body {
   }
 .donate{
     text-align: center;
-    background-image: url(images/donation6.jpg);
-    
+    background-image: url(images/donation13.jpg);
+    color: beige;
+    font-size: 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+.now{
+    color: beige;
+    font-size: 70%;
+    padding: 10px 20px;
+    border-radius: 5%;
+    background-image: linear-gradient(tomato, violet);
+}
+.today{
+    text-align: center;
+    font-size: 50%;
+}
+.two-hundred{
+    padding: 20px 30px;
+    background-color: rgba(221, 111, 129, 0.726);
+    border-radius: 7%;
+}
+.genaral{
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 7%;
+}
+#second-donate{
+    color: beige;
+    font-size: 100%;
+    padding: 10px 20px;
+    border-radius: 5%;
+    background-image: linear-gradient(tomato, violet);
+}
+.third-section{
+    text-align: center;
+    font-size: 60%;
+}
+.food{
+    font-size: 15px;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-size: 30px
+}
+.shelter{
+    font-size: 15px;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-size: 30px
+}
+.education{
+    font-size: 15px;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-size: 30px
+}
+.intructions{
+    display: flex;
 }
